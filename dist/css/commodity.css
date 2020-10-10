@@ -1,0 +1,586 @@
+body {
+  background-color: #fff;
+  position: relative; }
+
+#topgif {
+  height: 100px;
+  overflow: hidden;
+  position: relative; }
+  #topgif ul {
+    height: 400px;
+    position: absolute;
+    top: 0; }
+    #topgif ul li {
+      height: 100px; }
+      #topgif ul li a img {
+        position: relative;
+        margin-left: -200px; }
+
+#topmenu {
+  height: 40px;
+  background-color: #404040; }
+  #topmenu ul:nth-child(1) {
+    margin-left: 100px; }
+    #topmenu ul:nth-child(1) li {
+      float: left;
+      text-align: center;
+      margin-right: 30px;
+      color: #a7b2a7;
+      font-size: 14px;
+      margin-top: 13px; }
+      #topmenu ul:nth-child(1) li:hover {
+        color: #fff; }
+  #topmenu ul:nth-child(2) {
+    float: right;
+    margin-right: 100px;
+    position: relative; }
+    #topmenu ul:nth-child(2) li {
+      float: left;
+      margin-right: 30px;
+      margin-top: 13px;
+      text-align: center;
+      color: #a7b2a7;
+      font-size: 14px; }
+      #topmenu ul:nth-child(2) li a {
+        color: #a7b2a7;
+        font-size: 14px; }
+        #topmenu ul:nth-child(2) li a:hover {
+          color: #fff; }
+    #topmenu ul:nth-child(2) li:nth-child(1) img {
+      position: absolute;
+      z-index: 2;
+      width: 100px;
+      right: 170px;
+      top: 30px; }
+    #topmenu ul:nth-child(2) li:nth-child(1) a {
+      padding: 0 10px; }
+    #topmenu ul:nth-child(2) li:nth-child(3) {
+      height: 40px;
+      margin: 0;
+      background-color: #4c4c4c;
+      overflow: hidden; }
+      #topmenu ul:nth-child(2) li:nth-child(3) img {
+        float: left;
+        width: 20px;
+        margin: 8px 5px 0 5px; }
+      #topmenu ul:nth-child(2) li:nth-child(3) span {
+        margin-top: 13px;
+        float: right; }
+
+#topnav {
+  height: 100px;
+  background-color: #FFF; }
+  #topnav img {
+    margin-left: 90px;
+    height: 60px;
+    margin-top: 20px;
+    float: left; }
+  #topnav #topnavul {
+    height: 100px;
+    float: left;
+    width: 570px;
+    margin-left: 120px;
+    position: relative; }
+    #topnav #topnavul li {
+      height: 100px;
+      float: left;
+      font-size: 14px;
+      color: black;
+      margin-right: 40px;
+      position: relative; }
+      #topnav #topnavul li a {
+        padding-top: 42px;
+        display: block;
+        color: black;
+        height: 58px; }
+    #topnav #topnavul a:hover {
+      color: #35abf2; }
+    #topnav #topnavul li:nth-child(2) {
+      position: relative; }
+      #topnav #topnavul li:nth-child(2):hover ul {
+        display: block; }
+      #topnav #topnavul li:nth-child(2) ul {
+        position: absolute;
+        background-color: #fff;
+        height: 180px;
+        width: 1540px;
+        left: -460px;
+        display: none;
+        z-index: 10; }
+        #topnav #topnavul li:nth-child(2) ul li {
+          float: left;
+          width: 130px;
+          height: 80px;
+          background-color: #fff;
+          margin: 5px 0;
+          padding: 0 20px; }
+          #topnav #topnavul li:nth-child(2) ul li a {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            display: block; }
+            #topnav #topnavul li:nth-child(2) ul li a:hover p {
+              color: #35abf2; }
+            #topnav #topnavul li:nth-child(2) ul li a img {
+              margin: 0;
+              width: 40px;
+              height: 40px;
+              display: block;
+              float: left;
+              margin-top: 20px; }
+            #topnav #topnavul li:nth-child(2) ul li a div {
+              height: 50px; }
+              #topnav #topnavul li:nth-child(2) ul li a div img {
+                margin: 10px 0 0 45px; }
+            #topnav #topnavul li:nth-child(2) ul li a p {
+              margin-top: 10px;
+              text-align: center;
+              color: #999; }
+        #topnav #topnavul li:nth-child(2) ul li:nth-child(1) {
+          margin-left: 160px; }
+        #topnav #topnavul li:nth-child(2) ul li:nth-child(8) {
+          margin-left: 160px; }
+    #topnav #topnavul li:nth-child(3) {
+      position: relative; }
+      #topnav #topnavul li:nth-child(3):hover ul {
+        display: block; }
+      #topnav #topnavul li:nth-child(3) ul {
+        position: absolute;
+        background-color: #fff;
+        height: 180px;
+        width: 1540px;
+        left: -595px;
+        display: none;
+        z-index: 10; }
+        #topnav #topnavul li:nth-child(3) ul li {
+          float: left;
+          width: 250px;
+          height: 170px;
+          background-color: #fff;
+          margin: 5px 10px; }
+          #topnav #topnavul li:nth-child(3) ul li a {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            display: block; }
+            #topnav #topnavul li:nth-child(3) ul li a:hover p {
+              color: #35abf2; }
+            #topnav #topnavul li:nth-child(3) ul li a div {
+              height: 135px; }
+              #topnav #topnavul li:nth-child(3) ul li a div img {
+                width: 230px;
+                height: 135px;
+                margin: 0 0 0 10px; }
+            #topnav #topnavul li:nth-child(3) ul li a p {
+              margin-top: 10px;
+              text-align: center;
+              color: #999; }
+        #topnav #topnavul li:nth-child(3) ul li:nth-child(1) {
+          margin-left: 95px; }
+    #topnav #topnavul li:nth-child(4) {
+      position: relative; }
+      #topnav #topnavul li:nth-child(4):hover ul {
+        display: block; }
+      #topnav #topnavul li:nth-child(4) ul {
+        position: absolute;
+        background-color: #fff;
+        height: 180px;
+        width: 1540px;
+        left: -690px;
+        display: none;
+        z-index: 10; }
+        #topnav #topnavul li:nth-child(4) ul li {
+          float: left;
+          width: 130px;
+          height: 80px;
+          background-color: #fff;
+          margin: 5px 0 0 160px;
+          padding: 0 20px; }
+          #topnav #topnavul li:nth-child(4) ul li a {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            display: block; }
+            #topnav #topnavul li:nth-child(4) ul li a:hover p {
+              color: #35abf2; }
+            #topnav #topnavul li:nth-child(4) ul li a img {
+              margin: 0;
+              width: 40px;
+              height: 40px;
+              display: block;
+              float: left;
+              margin-top: 20px; }
+            #topnav #topnavul li:nth-child(4) ul li a div {
+              height: 50px; }
+              #topnav #topnavul li:nth-child(4) ul li a div img {
+                margin: 10px 0 0 45px; }
+            #topnav #topnavul li:nth-child(4) ul li a p {
+              margin-top: 10px;
+              text-align: center;
+              color: #999; }
+  #topnav #topnavdiv {
+    float: right;
+    width: 460px;
+    height: 100px;
+    background-color: #FFF;
+    margin-right: 90px;
+    position: relative; }
+    #topnav #topnavdiv form input {
+      width: 300px;
+      height: 40px;
+      border: 1px solid #a29e9f;
+      margin-left: 50px;
+      float: left;
+      margin-top: 15px; }
+    #topnav #topnavdiv form button {
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-top: 15px;
+      background: url(../images/fangdajing_03.png) no-repeat;
+      background-size: 100% 100%; }
+    #topnav #topnavdiv div {
+      height: 40px;
+      margin-top: 65px;
+      margin-left: 50px; }
+      #topnav #topnavdiv div a {
+        color: black;
+        font-size: 14px;
+        margin-right: 10px; }
+        #topnav #topnavdiv div a:hover {
+          color: #35abf2; }
+      #topnav #topnavdiv div a:nth-child(1) {
+        color: #35abf2; }
+    #topnav #topnavdiv p {
+      position: absolute;
+      background-color: #d9d9d9;
+      height: 20px;
+      width: 70px;
+      text-align: center;
+      line-height: 20px;
+      border-radius: 5px;
+      font-size: 12px;
+      top: 25px;
+      left: 270px; }
+      #topnav #topnavdiv p:hover {
+        background-color: #35abf2; }
+        #topnav #topnavdiv p:hover a {
+          color: #FFF; }
+      #topnav #topnavdiv p a {
+        color: black; }
+
+#commodity {
+  width: 1200px;
+  height: 1000px;
+  margin-left: 150px;
+  margin-top: 40px;
+  position: relative; }
+  #commodity #commodityleft {
+    float: left;
+    width: 500px;
+    height: 100%;
+    position: relative; }
+    #commodity #commodityleft #bigmagnifying {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background-color: #FFF;
+      border: 1px solid #999;
+      z-index: 2;
+      left: 530px;
+      top: 0px;
+      overflow: hidden;
+      display: none; }
+      #commodity #commodityleft #bigmagnifying img {
+        position: absolute;
+        width: 1000px;
+        height: 1000px; }
+      #commodity #commodityleft #bigmagnifying img:nth-child(2) {
+        display: none; }
+      #commodity #commodityleft #bigmagnifying img:nth-child(3) {
+        display: none; }
+      #commodity #commodityleft #bigmagnifying img:nth-child(4) {
+        display: none; }
+    #commodity #commodityleft #magnifying {
+      width: 500px;
+      height: 500px;
+      border: 1px solid #999;
+      position: relative; }
+      #commodity #commodityleft #magnifying #mark {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #35abf2;
+        opacity: .3;
+        display: none; }
+      #commodity #commodityleft #magnifying img {
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+      #commodity #commodityleft #magnifying img:nth-child(2) {
+        display: none; }
+      #commodity #commodityleft #magnifying img:nth-child(3) {
+        display: none; }
+      #commodity #commodityleft #magnifying img:nth-child(4) {
+        display: none; }
+    #commodity #commodityleft #magnifyingmenu {
+      width: 500px;
+      height: 100px;
+      position: relative; }
+      #commodity #commodityleft #magnifyingmenu button:nth-of-type(1) {
+        width: 30px;
+        height: 80px;
+        margin-top: 10px;
+        float: left;
+        font-size: 24px;
+        background-color: #fff;
+        border: 0;
+        border-radius: 5px; }
+      #commodity #commodityleft #magnifyingmenu button:nth-of-type(2) {
+        width: 30px;
+        height: 80px;
+        margin-top: 10px;
+        float: right;
+        font-size: 24px;
+        background-color: #fff;
+        border: 0;
+        border-radius: 5px; }
+      #commodity #commodityleft #magnifyingmenu ul {
+        width: 440px;
+        height: 100px;
+        position: absolute;
+        left: 30px;
+        overflow: hidden; }
+        #commodity #commodityleft #magnifyingmenu ul li {
+          width: 90px;
+          height: 92px;
+          background-color: skyblue;
+          float: left;
+          margin-right: 16px;
+          margin-top: 5px;
+          border: 1px solid #999; }
+          #commodity #commodityleft #magnifyingmenu ul li:hover {
+            border-bottom: 2px solid #35abf2; }
+          #commodity #commodityleft #magnifyingmenu ul li img {
+            height: 100%;
+            width: 100%; }
+        #commodity #commodityleft #magnifyingmenu ul li:nth-child(1) {
+          margin-left: 8px; }
+  #commodity #commodityright {
+    float: left;
+    margin-left: 30px;
+    width: 670px;
+    height: 100%; }
+    #commodity #commodityright #commodityrighttop {
+      height: 160px; }
+      #commodity #commodityright #commodityrighttop p:nth-child(1) {
+        font-size: 22px; }
+      #commodity #commodityright #commodityrighttop p:nth-child(2) {
+        font-size: 16px;
+        margin-top: 14px;
+        color: #666; }
+      #commodity #commodityright #commodityrighttop p:nth-child(3) {
+        font-size: 18px;
+        margin-top: 15px;
+        color: #ff0000;
+        line-height: 30px; }
+        #commodity #commodityright #commodityrighttop p:nth-child(3) a {
+          color: #ff0000;
+          line-height: 30px; }
+    #commodity #commodityright #commodityrightcenter {
+      height: 200px;
+      position: relative; }
+      #commodity #commodityright #commodityrightcenter p {
+        width: calc(100% - 20px);
+        height: 30px;
+        background-color: #d52151;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 30px;
+        padding-left: 20px; }
+      #commodity #commodityright #commodityrightcenter div:nth-of-type(1) {
+        width: calc(100% - 15px);
+        height: 70px;
+        padding-left: 15px;
+        background-color: #f7f7f7; }
+        #commodity #commodityright #commodityrightcenter div:nth-of-type(1) span {
+          float: left; }
+        #commodity #commodityright #commodityrightcenter div:nth-of-type(1) span:nth-child(1) {
+          color: #000;
+          font-size: 20px;
+          line-height: 70px; }
+        #commodity #commodityright #commodityrightcenter div:nth-of-type(1) span:nth-child(2) {
+          color: #ff0000;
+          font-size: 30px;
+          line-height: 70px;
+          margin-left: 15px; }
+        #commodity #commodityright #commodityrightcenter div:nth-of-type(1) span:nth-child(3) {
+          line-height: 78px;
+          margin-left: 20px; }
+          #commodity #commodityright #commodityrightcenter div:nth-of-type(1) span:nth-child(3) a {
+            font-size: 14px; }
+        #commodity #commodityright #commodityrightcenter div:nth-of-type(1) span:nth-child(4) {
+          color: #d52151;
+          font-size: 16px;
+          line-height: 70px;
+          margin-right: 20px;
+          float: right; }
+      #commodity #commodityright #commodityrightcenter a img {
+        width: 680px;
+        position: absolute;
+        left: -5px;
+        top: 110px; }
+    #commodity #commodityright #commodityrightbottom1 {
+      height: 80px;
+      margin-top: 15px; }
+      #commodity #commodityright #commodityrightbottom1 p {
+        font-size: 18px;
+        color: #000; }
+      #commodity #commodityright #commodityrightbottom1 button {
+        cursor: pointer;
+        box-sizing: content-box;
+        float: left;
+        height: 25px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 5px 25px;
+        color: #000;
+        font-size: 14px;
+        line-height: 28px;
+        margin-right: 5px;
+        margin-top: 8px; }
+        #commodity #commodityright #commodityrightbottom1 button:focus {
+          border: none;
+          outline: none;
+          border: 1px solid #35abf2; }
+    #commodity #commodityright #commodityrightbottom2 {
+      height: 340px;
+      margin-top: 15px; }
+      #commodity #commodityright #commodityrightbottom2 p {
+        font-size: 18px;
+        color: #000; }
+      #commodity #commodityright #commodityrightbottom2 button {
+        cursor: pointer;
+        box-sizing: content-box;
+        float: left;
+        height: 25px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        border: 1px solid #999;
+        border-radius: 5px;
+        padding: 5px 25px;
+        color: #000;
+        font-size: 14px;
+        line-height: 28px;
+        margin-right: 5px;
+        margin-top: 5px; }
+        #commodity #commodityright #commodityrightbottom2 button:focus {
+          border: none;
+          outline: none;
+          border: 1px solid #35abf2; }
+      #commodity #commodityright #commodityrightbottom2 button:nth-child(2) {
+        margin-top: 15px;
+        color: #999;
+        cursor: not-allowed;
+        border: 1px dashed #999; }
+      #commodity #commodityright #commodityrightbottom2 button:nth-child(6) {
+        color: #999;
+        cursor: not-allowed;
+        border: 1px dashed #999; }
+      #commodity #commodityright #commodityrightbottom2 button:nth-child(7) {
+        color: #999;
+        cursor: not-allowed;
+        border: 1px dashed #999; }
+      #commodity #commodityright #commodityrightbottom2 button:last-child {
+        color: #999;
+        cursor: not-allowed;
+        border: 1px dashed #999; }
+    #commodity #commodityright #commodityrightbottom3 {
+      height: 70px; }
+      #commodity #commodityright #commodityrightbottom3 p {
+        font-size: 18px;
+        color: #000; }
+      #commodity #commodityright #commodityrightbottom3 button:nth-child(2) {
+        border: none;
+        outline: none;
+        border: 1px solid #999;
+        float: left;
+        background-color: #FFF;
+        width: 35px;
+        height: 37px;
+        margin-top: 5px;
+        border-radius: 5px 0 0 5px;
+        font-size: 20px; }
+        #commodity #commodityright #commodityrightbottom3 button:nth-child(2):hover {
+          background-color: #35abf2;
+          color: #FFF;
+          border: 0;
+          cursor: pointer; }
+      #commodity #commodityright #commodityrightbottom3 #number {
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        float: left;
+        text-align: center;
+        line-height: 35px;
+        width: 70px;
+        height: 35px;
+        background-color: #FFF;
+        margin-top: 5px; }
+      #commodity #commodityright #commodityrightbottom3 button:nth-child(4) {
+        border: none;
+        outline: none;
+        border: 1px solid #999;
+        float: left;
+        background-color: #FFF;
+        width: 35px;
+        height: 37px;
+        margin-top: 5px;
+        border-radius: 0 5px 5px 0;
+        font-size: 20px; }
+        #commodity #commodityright #commodityrightbottom3 button:nth-child(4):hover {
+          background-color: #35abf2;
+          cursor: pointer;
+          background-color: #35abf2;
+          color: #FFF;
+          border: 0; }
+    #commodity #commodityright #commodityrightbottom4 {
+      height: 60px;
+      background-color: #FFF;
+      margin-top: 20px; }
+      #commodity #commodityright #commodityrightbottom4 button:nth-child(1) {
+        width: 240px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        line-height: 37px;
+        text-align: center;
+        color: #FFF;
+        background-color: #35abf2;
+        font-size: 20px; }
+        #commodity #commodityright #commodityrightbottom4 button:nth-child(1):hover {
+          color: #35abf2;
+          background-color: #FFF;
+          border: 1px solid #35abf2; }
+      #commodity #commodityright #commodityrightbottom4 .addshopping {
+        width: 240px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        line-height: 37px;
+        text-align: center;
+        color: #35abf2;
+        background-color: #FFF;
+        font-size: 20px;
+        margin-left: 25px;
+        border: 1px solid #35abf2;
+        cursor: pointer; }
+        #commodity #commodityright #commodityrightbottom4 .addshopping:hover {
+          color: #FFF;
+          background-color: #35abf2; }

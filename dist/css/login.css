@@ -1,0 +1,94 @@
+#header {
+  height: 100px;
+  background-color: #FFF; }
+  #header img {
+    margin-left: 150px;
+    height: 60px;
+    margin-top: 20px; }
+
+#main {
+  height: 630px;
+  background: url(../images/ia_100000001.jpg) no-repeat 160px 70px #fdbf58;
+  background-size: 750px 411px;
+  position: relative; }
+  #main #login {
+    height: 480px;
+    width: 400px;
+    background-color: #FFF;
+    position: absolute;
+    right: 150px;
+    top: 50px; }
+    #main #login p {
+      color: #00a8ff;
+      font-size: 24px;
+      margin-top: 50px;
+      margin-left: 50px; }
+    #main #login input {
+      width: 300px;
+      height: 30px;
+      margin-top: 30px;
+      margin-left: 30px;
+      color: #999;
+      border: 0;
+      outline: 0;
+      border: 1px solid #999;
+      padding: 10px; }
+      #main #login input:focus {
+        border-color: #00a8ff; }
+    #main #login button {
+      width: 322px;
+      height: 50px;
+      color: #fff;
+      border: 0;
+      outline: 0;
+      margin-top: 20px;
+      margin-left: 30px;
+      background-color: #00a8ff;
+      cursor: pointer;
+      font-size: 18px; }
+    #main #login span:nth-of-type(1) {
+      display: block;
+      font-size: 14px;
+      margin-left: 30px;
+      margin-top: 10px;
+      float: left; }
+      #main #login span:nth-of-type(1) a {
+        color: #333; }
+        #main #login span:nth-of-type(1) a:hover {
+          color: #00a8ff; }
+    #main #login span:nth-of-type(2) {
+      display: block;
+      font-size: 14px;
+      margin-left: 290px;
+      margin-top: 10px; }
+      #main #login span:nth-of-type(2) a {
+        color: #333; }
+        #main #login span:nth-of-type(2) a:hover {
+          color: #00a8ff; }
+    #main #login #response {
+      background-color: #fff;
+      color: red;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-left: 30px;
+      text-align: center;
+      width: 320px;
+      display: none; }
+    #main #login form {
+      background-color: #FFF;
+      margin-top: 30px;
+      height: 90px;
+      width: 320px;
+      margin-left: 30px; }
+      #main #login form fieldset {
+        height: 80px;
+        border: none;
+        border-top: 1px solid #999; }
+        #main #login form fieldset legend {
+          padding: 0 50px;
+          text-align: center;
+          color: #666;
+          font-size: 14px; }
+        #main #login form fieldset img {
+          margin-left: 145px;
+          margin-top: 20px; }
